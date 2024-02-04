@@ -1,12 +1,12 @@
-# - name: Installing Roboshop project
-#   hosts: "{{component}}"
-#   become: yes
-#   roles:
-#   - "{{component}}"
-
-
 - name: Installing Roboshop project
-  hosts: mongodb
+  hosts: "{{component}}"
   become: yes
   roles:
-  - mongodb
+  - "{{component}}"
+
+
+# - name: Installing Roboshop project
+#   hosts: mongodb
+#   become: yes
+#   roles:
+#   - mongodb
