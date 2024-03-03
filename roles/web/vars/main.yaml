@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.vishwadevops.online
+USER_HOST: user.vishwadevops.online
+SHIPPING_HOST: shipping.vishwadevops.online
+CART_HOST: cart.vishwadevops.online
+PAYMENT_HOST: payment.vishwadevops.online
